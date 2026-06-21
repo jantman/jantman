@@ -28,84 +28,62 @@ import urllib.request
 # --------------------------------------------------------------------------- #
 
 INTRO = """\
-### Hi, I'm Jason 👋
+### Hi, I'm Jason 👋 (a.k.a. Antman or Jantman)
 
-Director of SRE [@manheim](https://github.com/manheim) /
-[@Cox-Automotive](https://github.com/Cox-Automotive). Tooling & automation
-developer, F/OSS lover, maker, tinkerer, and generator of half-finished
-projects. I blog at [jasonantman.com](https://www.jasonantman.com) and help run
-[@DecaturMakers](https://github.com/DecaturMakers).
+Director of SRE [@manheim](https://github.com/manheim) / [@Cox-Automotive](https://github.com/Cox-Automotive).
+Tooling & automation developer, F/OSS lover, maker, tinkerer, amateur machinist, and generator of half-finished
+projects. Fixer-of-things and board member [@DecaturMakers](https://github.com/DecaturMakers).
 """
 
 # Ordered list of (category title, [list of "owner/repo"]). Reorder freely.
 # Guideline: keep this to actively-maintained, public, non-fork repos from
 # roughly the last year or two.
 CATEGORIES = [
-    ("☁️ Cloud, DevOps &amp; Infra", [
-        "jantman/awslimitchecker",
-        "jantman/ecsjobs",
-        "jantman/grafana-cdktf-helpers",
-        "jantman/raspberry-pi-imager",
-        "jantman/arch-pkgbuilds",
-        "jantman/puppet-shared_infra",
-    ]),
-    ("📡 Networking &amp; Monitoring", [
-        "jantman/python-wifi-survey-heatmap",
-        "jantman/unifi-mongodb-logs-to-loki",
-        "jantman/prometheus-synology-api-exporter",
-        "jantman/prometheus-weathergoose-exporter",
-        "jantman/prometheus-snmp-exporter-synology-ds1621",
-    ]),
-    ("🏠 Home Automation &amp; Video", [
-        "jantman/home-automation-configs",
+    ("🏠 Home Automation", [
+        "jantman/kodi-benq-projector-control",
+        "jantman/py-vista-turbo-serial",
+        "jantman/seeed-sensecap-indicator",
         "jantman/docker-zoneminder",
         "jantman/zoneminder-prometheus-exporter",
         "jantman/zoneminder-loki",
-        "jantman/zoneminder-onvif-date-time-setter",
         "jantman/docker-zm-mlapi",
-        "jantman/docker-appdaemon",
-        "jantman/kodi-benq-projector-control",
+        "jantman/my-house",
+        "jantman/house-electrical",
     ]),
     ("🔌 Hardware &amp; Embedded", [
-        "jantman/metrology-data-capture",
         "jantman/ford-f150-gen14-can-bus-interface",
+        "jantman/metrology-data-capture",
         "jantman/levoit-LV-PUR131-fan-controller",
-        "jantman/seeed-sensecap-indicator",
-        "jantman/py-vista-turbo-serial",
         "jantman/moonlander-qmk-layout",
     ]),
     ("🛠️ Maker &amp; Fabrication", [
+        "jantman/workshop-inventory-tracking",
         "jantman/machining-projects",
         "jantman/cnc-projects",
         "jantman/3d-printed-things",
         "jantman/laser-cutter-projects",
-        "jantman/house-electrical",
-        "jantman/workshop-inventory-tracking",
     ]),
     ("🐍 Apps &amp; Tooling", [
         "jantman/biweeklybudget",
         "jantman/misc-scripts",
-        "jantman/claude-code-tools",
         "jantman/repostatus.org",
-        "jantman/python-package-skeleton",
-        "jantman/docker-glpi",
-    ]),
-    ("🌐 Web &amp; Personal", [
-        "jantman/blog",
-        "jantman/jantman.github.io",
-        "jantman/hiking-logs",
     ]),
     ("🤖 Decatur Makers", [
         "DecaturMakers/machine-access-control",
         "DecaturMakers/equipment-status-board",
         "DecaturMakers/kiosk-show-replacement",
-        "DecaturMakers/RPiRFIDWiegandReader",
-        "DecaturMakers/dm-puppet",
-        "DecaturMakers/DM-github-membership",
-        "DecaturMakers/3d-printer-configurations",
-        "DecaturMakers/dm-network-docs",
-        "DecaturMakers/dm-ca",
-        "DecaturMakers/esp32-micropython-prometheus",
+    ]),
+    ("📡 Networking &amp; Monitoring", [
+        "jantman/python-wifi-survey-heatmap",
+        "jantman/unifi-mongodb-logs-to-loki",
+        "jantman/prometheus-synology-api-exporter",
+        "jantman/prometheus-snmp-exporter-synology-ds1621",
+    ]),
+    ("☁️ Cloud, DevOps &amp; Infra", [
+        "jantman/grafana-cdktf-helpers",
+        "jantman/raspberry-pi-imager",
+        "jantman/arch-pkgbuilds",
+        "jantman/puppet-shared_infra",
     ]),
 ]
 
