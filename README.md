@@ -20,14 +20,14 @@ projects. Fixer-of-things and board member [@DecaturMakers](https://github.com/D
 
 #### 🔌 Hardware &amp; Embedded
 
-- **[ford-f150-gen14-can-bus-interface](https://github.com/jantman/ford-f150-gen14-can-bus-interface)** — Experiments with the CAN networks on my 2025 Ford F150
+- **[ford-f150-gen14-can-bus-interface](https://github.com/jantman/ford-f150-gen14-can-bus-interface)** — Experiments with the CAN networks on my 2025 Ford F150 including ESP32-based toolbox unlocking and bed lights
 - **[metrology-data-capture](https://github.com/jantman/metrology-data-capture)** — Code and hardware designs for capturing data output from various calipers, micrometers, etc.
 - **[levoit-LV-PUR131-fan-controller](https://github.com/jantman/levoit-LV-PUR131-fan-controller)** — Arduino-based replacement fan controller for the Levoit LV-PUR131 air filter
 - **[moonlander-qmk-layout](https://github.com/jantman/moonlander-qmk-layout)** — QMK layout/source for my ZSA Moonlander keyboard
 
 #### 🛠️ Maker &amp; Fabrication
 
-- **[workshop-inventory-tracking](https://github.com/jantman/workshop-inventory-tracking)** — Simple tool for tracking my home workshop materials stock
+- **[workshop-inventory-tracking](https://github.com/jantman/workshop-inventory-tracking)** — Web application for tracking my home workshop materials stock
 - **[machining-projects](https://github.com/jantman/machining-projects)** — Plans for some of my machining projects
 - **[cnc-projects](https://github.com/jantman/cnc-projects)** — My CNC projects
 - **[3d-printed-things](https://github.com/jantman/3d-printed-things)** — Collection of things I've 3d printed and might want to print again
@@ -41,15 +41,15 @@ projects. Fixer-of-things and board member [@DecaturMakers](https://github.com/D
 
 #### 🤖 Decatur Makers
 
-- **[machine-access-control](https://github.com/DecaturMakers/machine-access-control)** — Decatur Makers machine access control (tool/equipment RFID control) project
+- **[machine-access-control](https://github.com/DecaturMakers/machine-access-control)** — Decatur Makers machine access control (tool/equipment RFID control) software and hardware project
 - **[equipment-status-board](https://github.com/DecaturMakers/equipment-status-board)** — Makerspace tool for tracking equipment status and repairs
-- **[kiosk-show-replacement](https://github.com/DecaturMakers/kiosk-show-replacement)** — Attempt at a simple self-hosted replacement for kiosk.show
+- **[kiosk-show-replacement](https://github.com/DecaturMakers/kiosk-show-replacement)** — A simple self-hosted replacement for kiosk.show electronic signage software
 
 #### 📡 Networking &amp; Monitoring
 
 - **[python-wifi-survey-heatmap](https://github.com/jantman/python-wifi-survey-heatmap)** — A Python application for Linux machines to perform WiFi site surveys and present the results as a heatmap overlayed on a floorplan ★480
 - **[unifi-mongodb-logs-to-loki](https://github.com/jantman/unifi-mongodb-logs-to-loki)** — Python script and Docker image to ship UniFi Network Server logs from MongoDB to Loki
-- **[prometheus-synology-api-exporter](https://github.com/jantman/prometheus-synology-api-exporter)** — ALPHA - Prometheus exporter for Synology DSM using the API for metrics
+- **[prometheus-synology-api-exporter](https://github.com/jantman/prometheus-synology-api-exporter)** — Prometheus exporter for Synology DSM using the API for metrics
 - **[prometheus-snmp-exporter-synology-ds1621](https://github.com/jantman/prometheus-snmp-exporter-synology-ds1621)** — Prometheus snmp-exporter Docker image with Synology DS-1621+ config baked in
 
 #### ☁️ Cloud, DevOps &amp; Infra
