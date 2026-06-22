@@ -53,6 +53,8 @@ CATEGORIES = [
     ("🔌 Hardware &amp; Embedded", [
         "jantman/ford-f150-gen14-can-bus-interface",
         "jantman/metrology-data-capture",
+        "jantman/owon-xdm1041-server",
+        "jantman/bk-precision-169x-server",
         "jantman/levoit-LV-PUR131-fan-controller",
         "jantman/moonlander-qmk-layout",
     ]),

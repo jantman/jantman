@@ -22,6 +22,8 @@ projects. Fixer-of-things and board member [@DecaturMakers](https://github.com/D
 
 - **[ford-f150-gen14-can-bus-interface](https://github.com/jantman/ford-f150-gen14-can-bus-interface)** — Experiments with the CAN networks on my 2025 Ford F150 including ESP32-based toolbox unlocking and bed lights
 - **[metrology-data-capture](https://github.com/jantman/metrology-data-capture)** — Code and hardware designs for capturing data output from various calipers, micrometers, etc.
+- **[owon-xdm1041-server](https://github.com/jantman/owon-xdm1041-server)** — A Web UI and SCPI server for the Owon XDM1041 digital multimeter
+- **[bk-precision-169x-server](https://github.com/jantman/bk-precision-169x-server)** — Web UI and SCPI Server for BK Precision 169x (and possibly other) bench power supplies
 - **[levoit-LV-PUR131-fan-controller](https://github.com/jantman/levoit-LV-PUR131-fan-controller)** — Arduino-based replacement fan controller for the Levoit LV-PUR131 air filter
 - **[moonlander-qmk-layout](https://github.com/jantman/moonlander-qmk-layout)** — QMK layout/source for my ZSA Moonlander keyboard
 
@@ -37,7 +39,7 @@ projects. Fixer-of-things and board member [@DecaturMakers](https://github.com/D
 
 - **[biweeklybudget](https://github.com/jantman/biweeklybudget)** — Responsive Flask/SQLAlchemy personal finance app, specifically for biweekly budgeting. ★107
 - **[misc-scripts](https://github.com/jantman/misc-scripts)** — A collection of my standalone scripts to small/quick for their own repos. All kinds of useful stuff. ★146
-- **[repostatus.org](https://github.com/jantman/repostatus.org)** — A standard to easily communicate to humans and machines the development/support and usability status of software repositories/projects. ★185
+- **[repostatus.org](https://github.com/jantman/repostatus.org)** — A standard to easily communicate to humans and machines the development/support and usability status of software repositories/projects. ★186
 
 #### 🤖 Decatur Makers
 
